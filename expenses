@@ -1,0 +1,5 @@
+expenses = list([4000, 200, 750,2500])
+total_expenses = 0
+for item in expenses:
+    total_expenses+=item
+print(f"My total expenses for June is {total_expenses} naira")
